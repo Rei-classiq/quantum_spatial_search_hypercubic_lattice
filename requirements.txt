@@ -1,1 +1,7 @@
-
+classiq==1.33.0
+numpy==2.4.4
+pandas==2.3.3
+matplotlib==3.10.9
+scipy==1.17.1
+qiskit==2.4.1
+qiskit-aer==0.17.2
