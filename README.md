@@ -35,21 +35,6 @@ The repository includes implementations and numerical evaluations of:
 The quantum circuits are implemented using the Classiq platform. Numerical simulations and data analysis are performed using Python and the relevant scientific computing libraries.
 Additional configuration or authentication may be required for circuit synthesis through the Classiq platform.
 
-## Notebooks and Data
-
-| Topic | Notebook | Data |
-|---|---|---|
-| Search probability: exact vs. circuit simulation ($d=2$–$5$) | `d=2/spatial_search4.ipynb`, `d=3/spatial_search_cube.ipynb`, `d>3/spatial_search_d4.ipynb`, `d>3/spatial_search_d5.ipynb`, `d>3/exact_sim_d4.ipynb`, `d>3/exact_sim_d5.ipynb`, `d>3/plot_d2_d5.ipynb` (figure) | `d>3/data.csv` |
-| Circuit resource scaling (width, depth, CX) | `resource_eval_d2_d5.ipynb` (synthesis), `data_plot_ver3.ipynb` (figure and fits) | `resource_one_iteration_d2_d5.csv`, `resource_topt_d2_d5.csv`, `depth_scaling_fit_table.csv` |
-| Shift-operator implementations (QFT adder, ripple-carry adder, MCX cascade, automated synthesis) | `comparison_search_in_motion/shift_implementations_d2.ipynb`, `compare_ours_vs_search_in_motion_d2.ipynb`, `search_probability_{qft,ripple,mcx}.ipynb`, `search_probability_all.ipynb` (figure) | `shift_compare_{default,opt}.csv`, `resource_*_ours_vs_paper.csv`, `search_probability_{qft,ripple,mcx}.csv` |
-| Robustness to gate noise | `d=2/spatial_search_fidelity_v2.ipynb` | `d=2/fidelity_{cx_only,pstar,scaling_fit}_v2.csv` |
-| Robustness to initial-state errors (Appendix B) | `d>3/initial_state_robustness.ipynb` | `d>3/initial_state_error_overrot_{curves,pmax,time}_d2_d5.csv` |
-| Target location and boundary conditions (Appendix C) | `d>3/target_location_robustness.ipynb` | `d>3/target_location_curves_d2.csv` |
-
-Circuit synthesis requires Classiq authentication (`classiq.authenticate()`).
-The figures use LaTeX rendering (`text.usetex=True`), so a LaTeX installation is required to regenerate them.
-The resource data were synthesized with `classiq==1.33.0`; other versions may give slightly different gate counts.
-
 
 ## Reproducing the Results
 
