@@ -53,6 +53,6 @@ The simulation parameters and configurations are provided alongside the correspo
 
 If you use this repository in your research, please cite:
 
-R. Sato, "Quantum Circuits for Quantum Spatial Search on d-Dimensional Lattices," https://arxiv.org/pdf/2607.19151
+R. Sato, "Quantum Circuits for Quantum Spatial Search on d-Dimensional Lattices," 
 
 Preprint: https://arxiv.org/abs/2607.19151
