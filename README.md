@@ -1,0 +1,1 @@
+# quantum_spatial_search_hypercubic_lattice
